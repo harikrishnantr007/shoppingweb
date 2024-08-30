@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.footer div {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}/*# sourceMappingURL=Footer.css.map */

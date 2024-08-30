@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header .categories {
+  display: flex;
+  gap: 20px;
+  padding: 0px 10px;
+}
+.header .categories p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.header .search-box {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(219, 217, 217, 0.521);
+}
+.header .search-box::-moz-placeholder {
+  padding-left: 10px;
+}
+.header .search-box::placeholder {
+  padding-left: 10px;
+}
+.header .search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .user-info {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  min-width: 90px;
+}
+.header .user-info .cart-count {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 120, 140);
+  color: white;
+  position: absolute;
+  left: 80px;
+  bottom: 19px;
+}/*# sourceMappingURL=Header.css.map */
